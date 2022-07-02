@@ -7,7 +7,7 @@ const link = require('../assets/links.js');
 const Utils = require('../assets/dontTouch.js');
 
 
-const prefix = "f";
+const prefix = process.env.prefix;
 const token = process.env.token;
 const id = process.env.id;
 class Fisher extends EventEmitter {
