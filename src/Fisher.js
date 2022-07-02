@@ -36,7 +36,7 @@ class Fisher extends EventEmitter {
       Request.post(link.API + id + "/messages", {
         headers: {
           "Content-Type": "application/json",
-          "Authorization": token
+          "Authorization": process.env.token
         },
         body: JSON.stringify({ "content": prefix + "f" })
       }, function(err, res, body) {
