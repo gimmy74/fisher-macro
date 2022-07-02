@@ -11,5 +11,5 @@
 2. Make a .env file in your workspace and make a key named "token" no spaces or caps then paste your discord token inside
 3. Choose a discord channel you want to run the script in
 4. Copy the ID and make another key in your .env file named "id" and paste the channel ID inside
-5. Make a .env key named "prefix" and paste the server prefix Virtual Fisher is set to
-6. Run the script and your good (use this script responsibly im not responsible for your account so if you get banned don't blame it on me)
+5. Make a .env key named "prefix" and paste the server prefix **Virtual Fisher** is set to
+6. Run the script and your good (***use this script responsibly im not responsible for your account so if you get banned don't blame it on me***)
