@@ -1,15 +1,19 @@
 {
   "name": "vf",
   "version": "1.0.0",
-  "description": "",
+  "description": "Virtual Fisher macro node wrapper",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Virtual Fisher", "Virtual Fisher Macro", "Discord Bot Virtual Fisher", "Fishing Macro"],
+  "author": "gimmy74",
   "license": "ISC",
   "dependencies": {
     "request": "^2.88.2"
   }
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/gimmy74/fisher-macro.git"
+  },
 }
