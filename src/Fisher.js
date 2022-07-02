@@ -19,7 +19,7 @@ class Fisher extends EventEmitter {
 
   async fish(seconds) {
 
-    const data = {
+    const fishing = {
       interval: seconds + "s",
       id: id,
     }
@@ -44,14 +44,14 @@ class Fisher extends EventEmitter {
       });
 
     }, seconds * 1000)
-    this.emit('Fished', data)
+    this.emit('Fished', fishing)
   };
   //                   Sell Fish
 
 
   async sell(amount, seconds) {
 
-    const data = {
+    const selling = {
       interval: seconds + "s",
       amount: amount,
       id: id,
@@ -87,7 +87,7 @@ class Fisher extends EventEmitter {
 
     }, seconds * 1000)
     
-    this.emit('Sold', data)
+    this.emit('Sold', selling)
     
   }
 
